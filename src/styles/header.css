@@ -1,0 +1,49 @@
+.header{
+	background-color:rgb(33,33,33);
+	height:8vh;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+}
+
+.bars{
+	margin-left:2rem;
+	font-size:1.5rem;
+    
+}
+.cross{
+	margin-right:1rem;
+	font-size:1.5rem;
+}
+
+.menu{
+	background-color:rgb(33,33,33);
+	height:100%;
+	width:300px;
+	color:white;
+	display:flex;
+
+	justify-content:center;
+	position:fixed;
+	top:0;
+	left:-100%;
+	transition:0.5s;
+	z-index:1;
+}
+.menu.active{
+	left:0;
+	transition:1s;
+}
+
+.menu-items{
+	width:100%;
+	list-style:none;
+}
+.menu-toggle{
+	width:100%;
+	height:8vh;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
