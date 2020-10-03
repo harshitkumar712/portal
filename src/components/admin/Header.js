@@ -10,7 +10,7 @@ const showSidebar=()=>setSidebar(!sidebar);
 	return(
 		<div>
 		<div className="header">
-       <Link to='#' className="bars"><i onClick={showSidebar} class="fas fa-bars"></i></Link>
+       <Link to='#' className="bars"><i onClick={showSidebar} className="fas fa-bars"></i></Link>
        <h3 style={{color:'white',marginRight:'1rem',fontSize:'1.5rem'}}>Admin Dashboard</h3>
 			</div>
 

@@ -1,22 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Route,Switch, BrowserRouter as Router} from 'react-router-dom'
-import App from './App';
+import {Route, BrowserRouter as Router} from 'react-router-dom'
+// import App from './App';
 import Admin from './components/admin/Admin'
 import * as serviceWorker from './serviceWorker';
 import AddArticle from './components/admin/AddArticle'
 import ViewCategory from './components/admin/ViewCategory'
+import AdminLogin from './components/admin/AdminLogin'
 
 const routing =(
 	<Router>
 		<div>
 		
-			<Route exact path='/' component={App} ></Route>
+			<Route exact path='/' component={AdminLogin} ></Route>
 			<Route path ='/admin' component={Admin}></Route>
 			<Route path ='/admin/addarticle' component={AddArticle}></Route>
 			<Route path ='/admin/viewcategory' component={ViewCategory}></Route>
-
+				
 			{/* <Route path='/user' component={User}></Route> */}
 		
 		</div>

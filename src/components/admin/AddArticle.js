@@ -84,7 +84,7 @@ axios({
                   type="text"
                   name="id"
                   value={this.state.id}
-                  id="id"
+        
                   onChange={this.handleInputChange}
                   placeholder="Enter ID"
                   className="form-control"
@@ -94,7 +94,7 @@ axios({
                   type="text"
                   name="title"
                   value={this.state.title}
-                  id="title"
+            
                   onChange={this.handleInputChange}
                   placeholder="Enter Title"
                   className="form-control"
@@ -104,7 +104,7 @@ axios({
                   type="text"
                   name="desc"
                   value={this.state.desc}
-                  id="desc"
+          
                   onChange={this.handleInputChange}
                   placeholder="Enter Description"
                   className="form-control"
@@ -122,7 +122,7 @@ axios({
                   type="text"
                   name="Author"
                   value={this.state.Author}
-                  id="Author"
+              
                   onChange={this.handleInputChange}
                   placeholder="Enter author name"
                   className="form-control"
@@ -131,11 +131,11 @@ axios({
                   <input
                     className="form-check-input"
                     type="checkbox"
-                    id="is_Reviewd"
+                
                     value={this.state.is_Reviewd}
                     onChange={this.handleInputChange}
                     name="is_Reviewd"
-                    id="check"
+                    
                   />
                   <label className="form-check-label" htmlFor="check">
                     Is Reviewed?
